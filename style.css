@@ -24,7 +24,18 @@
 .card {
     text-align: center;
 }
-
+h4{
+    text-align: center;
+}
+#divHello{
+    display: flex;
+    flex-direction: column ;
+    justify-content: center;
+    align-items: center;
+}
+#catImg {
+    height: 500px;
+}
 @media (max-width: 600px) { 
     .contai{
         background: url('header.avif') no-repeat center ;
@@ -37,5 +48,14 @@
     flex-direction: row ;
     justify-content: center;
     align-items: center;
+    }
+    #divHello{
+        display: flex;
+        flex-direction: column ;
+        justify-content: center;
+        align-items: center;
+    }
+    #catImg {
+        height: 500px;
     }
 }

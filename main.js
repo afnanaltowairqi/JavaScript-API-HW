@@ -68,4 +68,27 @@ window.location.href="helloUser.html";
 }
 // signup();
 
+//login 
+// async function login(email,password) {
+//     let res = await fetch('https://665786425c36170526451ff0.mockapi.io/db-api', {
+//         method: 'GET',
+//         headers: {
+//           'Content-type': 'application/json; charset=UTF-8',
+//         },
+//       });
+//     let data = await res.json();
+//     let e = data.find ( e => 
+//         e.emailInput === email && e.passInput ===password)
+//         return e;
+// };
+//     let e = login(emailInput,passInput)
+//     if (e){
+//         localStorage.setItem("userName", e.nameInput);
+//         window.location.href="helloUser.html";
+//     } else {
+//         let eFeedback =document.getElementById("eFeedback")
+//         eFeedback.textContent="invalid email"
 
+//         let pFeedback=document.getElementById("pFeedback")
+//         pFeedback.textContent="invalid password"
+//     }
